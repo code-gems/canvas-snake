@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!*************************************************!*\
   !*** ./node_modules/lit-element/lit-element.js ***!
   \*************************************************/
-/*! exports provided: defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, html, svg, TemplateResult, SVGTemplateResult, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css, LitElement */
+/*! exports provided: html, svg, TemplateResult, SVGTemplateResult, LitElement, defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -298,7 +298,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"CanvasSnake\", function() { return CanvasSnake; });\n/* harmony import */ var lit_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\n\r\n\r\nconst CanvasSnake = () => {\r\n\tconsole.log(\"WORKS!!\");\r\n\tconsole.log(\"WORKS!!\");\r\n};\r\n\n\n//# sourceURL=webpack:///./src/canvas-snake.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"CanvasSnake\", function() { return CanvasSnake; });\n/* harmony import */ var lit_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\nvar __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\n\r\nlet CanvasSnake = class CanvasSnake extends lit_element__WEBPACK_IMPORTED_MODULE_0__[\"LitElement\"] {\r\n    constructor() {\r\n        super();\r\n        this.disabled = false;\r\n    }\r\n    render() {\r\n        return lit_element__WEBPACK_IMPORTED_MODULE_0__[\"html\"] `\r\n\t\t\t<h1>WORKS !!</h1>\r\n\t\t`;\r\n    }\r\n};\r\nCanvasSnake.styles = lit_element__WEBPACK_IMPORTED_MODULE_0__[\"css\"] `\r\n\t\t:host {\r\n\t\t\tbackground: red;\r\n\t\t}\r\n\t`;\r\n__decorate([\r\n    Object(lit_element__WEBPACK_IMPORTED_MODULE_0__[\"property\"])()\r\n], CanvasSnake.prototype, \"disabled\", void 0);\r\nCanvasSnake = __decorate([\r\n    Object(lit_element__WEBPACK_IMPORTED_MODULE_0__[\"customElement\"])(\"canvas-snake\")\r\n], CanvasSnake);\r\n\r\n// window.customElements.define(\"canvas-snake\", CanvasSnake);\r\n\n\n//# sourceURL=webpack:///./src/canvas-snake.ts?");
 
 /***/ })
 

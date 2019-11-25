@@ -18,7 +18,7 @@ export class CanvasSnake extends LitElement {
 
 	render() {
 		return html`
-			<h1>WORKS !!</h1>
+			<h1>WORKS !!!</h1>
 		`;
 	}
 }

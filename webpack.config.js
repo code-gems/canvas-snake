@@ -21,7 +21,8 @@ module.exports = {
 		path: path.resolve(__dirname, "dist")
 	},
 	devServer: {
-		contentBase: "demo"
+		contentBase: "demo",
+		open: true
 		// contentBase: path.join(__dirname, "demo"),
 		// compress: true,
 		// port: 8089
